@@ -4,7 +4,7 @@
   "description": "This repo lays out the material presented in the first chapter of Martin Fowler's fantastic book \"Refactoring\", which can be downloaded for free [here](https://www.thoughtworks.com/books/refactoring2). All credit and copyright for the refactor source code belongs to Martin Fowler and Pearson Education.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
