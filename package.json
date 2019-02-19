@@ -1,0 +1,22 @@
+{
+  "name": "refactoring-play-invoices",
+  "version": "1.0.0",
+  "description": "This repo lays out the material presented in the first chapter of Martin Fowler's fantastic book \"Refactoring\", which can be downloaded for free [here](https://www.thoughtworks.com/books/refactoring2). All credit and copyright for the refactor source code belongs to Martin Fowler and Pearson Education.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Djangofs/refactoring-play-invoices.git"
+  },
+  "author": "Django Shelton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Djangofs/refactoring-play-invoices/issues"
+  },
+  "homepage": "https://github.com/Djangofs/refactoring-play-invoices#readme",
+  "dependencies": {
+    "jest": "^24.1.0"
+  }
+}
