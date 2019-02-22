@@ -4,7 +4,10 @@
   "description": "This repo lays out the material presented in the first chapter of Martin Fowler's fantastic book \"Refactoring\", which can be downloaded for free [here](https://www.thoughtworks.com/books/refactoring2). All credit and copyright for the refactor source code belongs to Martin Fowler and Pearson Education.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "format:verify": "prettier --list-different '{data,exercises}/**/*.js'",
+    "format": "prettier --write '{data,exercises}/**/*.js'",
+    "lint": "eslint ./src"
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,10 @@
   },
   "homepage": "https://github.com/Djangofs/refactoring-play-invoices#readme",
   "dependencies": {
-    "jest": "^24.1.0"
+    "jest": "24.1.0",
+    "eslint": "5.14.1",
+    "eslint-config-prettier": "4.0.0",
+    "eslint-plugin-prettier": "3.0.1",
+    "prettier": "1.16.4"
   }
 }
