@@ -1,4 +1,4 @@
-const statement = require("./1_starting_point/finished");
+const statement = require("./2_refine_extracted_function/finished");
 const invoices = [
   {
     customer: "BigCo",
