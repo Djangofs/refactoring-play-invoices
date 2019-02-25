@@ -1,4 +1,4 @@
-# Refining the extracted function
+# Extract volume credits
 
 Looking over the current code, the next obvious candidate for extracting into a function is the volume credit calculation. Try doing this using the techniques and style learnt in exercises 1 and 2. Notice also how this is easier 
 

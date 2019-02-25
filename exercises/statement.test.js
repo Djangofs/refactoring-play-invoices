@@ -1,4 +1,4 @@
-const statement = require("./3_extract_volume_credits/finished");
+const statement = require("./4_remove_temporary_variables/finished");
 const invoices = [
   {
     customer: "BigCo",
