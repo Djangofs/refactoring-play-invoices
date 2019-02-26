@@ -14,5 +14,6 @@ Now that we have added enough structure to our code to make it understandable, w
 9. Move the two calculations of the totals.
 10. Optional: refactor `totalAmount` and `totalVolumeCredits` using Replace Loop with Pipeline.
 11. Move all the first phase (calculation) code to it's own function `createStatementData` and its own file.
+12. Bonus: Write tests for the createStatementData function
 
 ## Hints

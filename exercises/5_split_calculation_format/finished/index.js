@@ -1,4 +1,4 @@
-const createStatementData = require("./finished_createStatementData");
+const createStatementData = require("./createStatementData");
 function statement(invoice, plays) {
   return renderPlainText(createStatementData(invoice, plays));
 }
