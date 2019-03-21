@@ -1,4 +1,4 @@
-const statement = require("./finished");
+const statement = require("./start");
 const invoices = [
   {
     customer: "BigCo",

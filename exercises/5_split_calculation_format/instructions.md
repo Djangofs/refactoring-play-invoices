@@ -10,7 +10,7 @@ Now that we have added enough structure to our code to make it understandable, w
 5. The next step is to add play name to the intermediate data. To do this we will "enrich" the performance record with information from the play. Create a new function `enrichPerformance` which copies a performance object and returns it. Apply this using the `Array.Prototype.map`.
 6. Apply Move Function to `playFor` and call it from `enrichPerformance`. Replace references to `playFor` inside `renderPlainText` with to use the `data` parameter instead.
 7. Move `amountFor` in the same way.
-8. Move `voumeCresitsFor` in the same way.
+8. Move `voumeCreditsFor` in the same way.
 9. Move the two calculations of the totals.
 10. Optional: refactor `totalAmount` and `totalVolumeCredits` using Replace Loop with Pipeline.
 11. Move all the first phase (calculation) code to it's own function `createStatementData` and its own file.
